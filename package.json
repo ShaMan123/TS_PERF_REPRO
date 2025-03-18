@@ -1,0 +1,14 @@
+{
+  "name": "ts_perf_repro",
+  "version": "1.0.0",
+  "description": "Reproduction for https://github.com/microsoft/TypeScript/issues/61400",
+  "main": "const.ts",
+  "scripts": {
+    "test": "tsc --noEmit --extendedDiagnostics"
+  },
+  "author": "ShaMan123",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
